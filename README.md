@@ -108,9 +108,9 @@ There's an additional functionality of Bolding the content in the body. This fea
     \
     >`mail_subject`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: str, Subject of the Email 
     \
-    >`mail_body`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: list, List of Stings given alternatively with Normal and bolding texts.
+    >`mail_body`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: list, List of stings alternatively given with Normal and bolding texts.
     ```
-    var = Email(sender_email: "", sender_password: "", mail_subject: "", mail_body: ["",""])
+    var = Email(sender_email: "abc@gmail.com", sender_password: "12345678", mail_subject: "Hello World!", mail_body: ["""This is a Normal Text, ""","""This is a Bolded Text"""])
     ```
 ### <a id="email-method">4. Methods  </a>
 - #### <a id="mails">send_mails</a>
