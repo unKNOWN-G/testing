@@ -9,7 +9,7 @@
 <font size="3">
 1) <span style="background-color:#ACDDDE"><b>&nbsp;&nbsp;Bolding</b> Functionality in Emails</span>  
 
-    * Specific Parts of an Email can now be bolded using Automate.
+    * Specific Parts of an Email can now be bolded using `Automate`.
 2) <div style="background-color:#CAF1DE"><b>&nbsp;&nbsp;Spam Bot</b> in Whatsapp</div>
 
     * Using `Automate`, we can send a message multiple times (spam) to a user(s).
