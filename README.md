@@ -7,7 +7,7 @@
 ***
 ## <a id="features" style="color:gren;">Main Features</a>
 <font size="3">
-1) <div style="background-color:#ACDDDE"><b>&nbsp;&nbsp;Bolding</b> Functionality in Emails</div>  
+1) <span style="background-color:#ACDDDE"><b>&nbsp;&nbsp;Bolding</b> Functionality in Emails</span>  
 
     * Specific Parts of an Email can now be bolded using Automate.
 2) <div style="background-color:#CAF1DE"><b>&nbsp;&nbsp;Spam Bot</b> in Whatsapp</div>
