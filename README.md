@@ -11,13 +11,17 @@
     * Specific Parts of an Email can now be bolded using Automate.
 2) <div style="background-color:#CAF1DE"><b>&nbsp;&nbsp;Spam Bot</b> in Whatsapp</div>
 
-    * Using this Functionality you can send a message multiple times to a user.
-3) <div style="background-color:#FFE9EE"><b>&nbsp;&nbsp;Group Creator</b>  in Whatsapp</div> 
- 
-    *  Makes a Whatsapp group with input as the participants and the group name.
-4)  <div style="background-color:#EDDFBF"> <b>&nbsp;&nbsp;Audio Sender</b> in Whatsapp</div>  
+    * Using `Automate`, we can send a message multiple times (spam) to a user(s).
+3)  <div style="background-color:#EDDFBF"> <b>&nbsp;&nbsp;Audio Sender</b> in Whatsapp</div>  
 
-    * Takes Input as text message and sends a voice clip of that message to the receiver.
+    * Text messages can now be sent as voice clip using `Automate`
+4) <div style="background-color:#CAF1DE"><b>&nbsp;&nbsp;Automate sending all types of media in Whatsapp</b> in Whatsapp</div>
+
+    * Using `Automate`, we can automate sending Text, Images, Videos, Documents, and Audio Clips.
+5) <div style="background-color:#FFE9EE"><b>&nbsp;&nbsp;Group Creator</b>  in Whatsapp</div> 
+ 
+    * Process of creating a group and adding participants, and sending invites is automated by `automate`
+
 &nbsp;
 ***
 ## <a id="contents" >Table of Contents</a>
