@@ -1,5 +1,5 @@
 # <a id="title" >Automate</a>
-<font size="4">A</font>utomate is a Python package which automates the process of sending mails, whatsapp text, images, videos and audio messages along with other functionalities like creating a group and spam bot
+<font size="4">A</font>utomate is a Python package that automates sending emails, Whatsapp text, images, videos, and audio messages along with other functionalities like creating a group and spam bot.
 
 **Libraries Used**: Selenium, gTTS 
 \
