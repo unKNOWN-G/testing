@@ -74,11 +74,10 @@
 
 ### <a id="email-desc" >1.  Description  </a>
 
-This Class Automates the process of sending E-mails to multiple recipients
-Using the `sender_mail` and `sender_password` credentials as input along with `mail_subject` and `mail_body` as input, Mails can be sent to multiple recipients individually.                                         
-                                                                                                        
-There's an additional functionality of **Bolding** the content in the body. This can be used by alternatively giving the texts in the `mail_body` list with normal and bold texts [ "Normal text1", "Bold Text 1", "Normal text 2", "Bold Text 2" ....]
+This Class Automates the process of sending E-mails to multiple recipients. 
+Using the sender_mail and sender_password credentials as input along with mail_subject and mail_body as input, Mails can be sent to numerous recipients individually.
 
+There's an additional functionality of Bolding the content in the body. This feature can be used by alternatively giving the texts in the mail_body list with normal and bold texts [ "Normal text1", "Bold Text 1", "Normal text 2", "Bold Text 2" ....]
 >**Note:**
 >- To input Multiple lines of string use triple quotes.                                             
 >- It is advised to use organisation specific sender_email that (or) gmails that arent created on this device to avoid security issues with google verification.  
