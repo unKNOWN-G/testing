@@ -20,7 +20,7 @@
     * Using `Automate`, we can automate sending Text, Images, Videos, Documents, and Audio Clips.
 5) <div style="background-color:#FFE9EE"><b>&nbsp;&nbsp;Group Creator</b>  in Whatsapp</div> 
  
-    * Process of creating a group and adding participants, and sending invites is automated by `automate`
+    * Process of creating a group and adding participants, and sending invites is automated by `Automate`
 
 
 &nbsp;
