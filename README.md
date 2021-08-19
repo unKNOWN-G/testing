@@ -6,6 +6,7 @@
 &nbsp;
 ***
 ## <a id="features" style="color:gren;">Main Features</a>
+<font size="3">
 1) <div style="background-color:#ACDDDE"><b>&nbsp;&nbsp;Bolding</b> Functionality in Emails</div>  
 
     * Specific Parts of an Email can now be bolded using Automate.
@@ -22,6 +23,7 @@
  
     * Process of creating a group and adding participants, and sending invites is automated by `automate`
 
+   </font>
 &nbsp;
 ***
 ## <a id="contents" >Table of Contents</a>
