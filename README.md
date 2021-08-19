@@ -272,4 +272,4 @@ There's an additional functionality of **Bolding** the content in the body. This
 ## License
 ### [**MIT**]()
 
-### <div align="center">Made with <3 from unKNOWN-G</div>
+### <div align="center">Made with 💖 from unKNOWN-G</div>
