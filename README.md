@@ -119,7 +119,7 @@ There's an additional functionality of Bolding the content in the body. This fea
 - #### <a id="mails">send_mails</a>
 
     This method Automatically sends emails to the recipients.   
-    Mails can be sent to **Multiple recipients** also individually by adding their names in the `emails` list.
+    Mails can be sent to ***Multiple recipients*** individually by adding their names in the `emails` list.
 
     *Input Parameters:*  
 
@@ -173,7 +173,7 @@ There's an additional functionality of Bolding the content in the body. This fea
 ### <a id="whatsapp-method">4. Methods</a>
 - #### <a id="spam">spam_bot</a>
     - This method is used to send repeated texts (Spam) to the same person.
-    - Messages can be sent to multiple recipients also by the contact names in `name` list.  
+    - Messages can be sent to ***Multiple recipients*** also by the contact names in `name` list.  
 
     *Input Parameteres :*  
     > `name` &nbsp;: list, Names of the person to whom these messages are to be sent.     
