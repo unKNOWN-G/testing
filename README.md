@@ -46,8 +46,8 @@
 ***
 ## <a id="pre" >Prequesites</a>
 - Chrome Driver  
-    Download the suitable version of your chrome driver from [**here**](https://chromedriver.chromium.org/downloads) which is similar to the version of your chrome browser. The Chrome version can be found in `Settings/About Chrome`
-    
+   Download the suitable version of your chrome driver from [**here**](https://chromedriver.chromium.org/downloads) which is similar to the version of your chrome browser. The Chrome version can be found in `Settings/About Chrome`
+
 - Selenium
     ```
      pip install selenium
