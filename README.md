@@ -118,8 +118,8 @@ There's an additional functionality of Bolding the content in the body. This fea
 ### <a id="email-method">4. Methods  </a>
 - #### <a id="mails">send_mails</a>
 
-    This method Automatically send emails to the recipients.   
-    Mails can be sent to multiple recipients also individually by adding their names in the `emails` list.
+    This method Automatically sends emails to the recipients.   
+    Mails can be sent to **Multiple recipients** also individually by adding their names in the `emails` list.
 
     *Input Parameters:*  
 
@@ -178,7 +178,7 @@ There's an additional functionality of Bolding the content in the body. This fea
     *Input Parameteres :*  
     > `name` &nbsp;: list, Names of the person to whom these messages are to be sent.     
     > `msg` &nbsp;&nbsp;&nbsp;: str, Message.  
-        >`count` : int, Number of Messages.
+    >`count` : int, Number of Messages.
 
     *Code :*
 
@@ -235,7 +235,7 @@ There's an additional functionality of Bolding the content in the body. This fea
     ```
 
 - #### <a id="audio">send_audio </a> 
-    - This method converts the given message into a audio recording and send to the recipient.
+    - This method converts the given message into a audio recording and will send to the recipient.
     - The audio file can be sent to multiple recipients by adding recipients into `name` list.  
 
     *Input Parameters:*  
