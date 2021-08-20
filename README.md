@@ -148,7 +148,7 @@ There's an additional functionality of Bolding the content in the body. This fea
     - [create_group](#groupmaker)
         \
     &nbsp;
-    - [whatsapp_closer](#closer)
+    - [close_whatsapp](#closer)
 \
 &nbsp;
 ### <a id="whatsapp-import">3. Importing and assigning Email class</a>
@@ -266,14 +266,14 @@ There's an additional functionality of Bolding the content in the body. This fea
     ```
     var.create_group(group_list: ["",""], group_name: "", text_dir: str = './group_names.txt')
     ```     
-- #### <a id="closer">whatsapp_closer</a>  
+- #### <a id="closer">close_whatsapp</a>  
     - This method is used to close the running chrome driver.
 
     *Input Parameters:*  None
 
     *Code :*
     ```
-    var.whatsapp_closer()
+    var.close_whatsapp()
     ```
 ***
 ## License
