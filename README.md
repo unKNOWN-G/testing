@@ -75,7 +75,7 @@
 - [Whatsapp](#whatsapp)
 ## <a id="email" >Email Class</a>
 
-### <a id="email-desc" >1.  Description  </a>
+### <a id="email-desc" >A.  Description  </a>
 
 This Class Automates the process of sending E-mails to multiple recipients. 
 Using the sender_mail and sender_password credentials as input along with mail_subject and mail_body as input, Mails can be sent to **Multiple recipients individually**.
@@ -86,11 +86,11 @@ There's an additional functionality of Bolding the content in the body. This fea
 >- It is advised to use organization-specific sender_email that (or) gmails that arent created on this device to avoid security issues with google verification.  
 
 
-### <a id="email-what">2. What Methods do we Offer?</a>
+### <a id="email-what">B. What Methods do we Offer?</a>
 - Email Class
     - [send_mails](#mails)
 
-### <a id="email-import">3. Importing and assigning Email class</a>
+### <a id="email-import">C. Importing and assigning Email class</a>
 - Importing the `Email` Class  
     
     ```
@@ -115,7 +115,7 @@ There's an additional functionality of Bolding the content in the body. This fea
     ```
     var = Email(sender_email: "abc@gmail.com", sender_password: "12345678", mail_subject: "Hello World!", mail_body: ["""This is a Normal Text, ""","""This is a Bolded Text"""])
     ```
-### <a id="email-method">4. Methods  </a>
+### <a id="email-method">D. Methods  </a>
 - #### <a id="mails">send_mails</a>
 
     This method Automatically sends emails to the recipients.   
@@ -133,17 +133,16 @@ There's an additional functionality of Bolding the content in the body. This fea
     *Demo :*  
 
 
-https://user-images.githubusercontent.com/60328300/130320925-9ace9aea-59e7-48a5-b410-ff21e826101b.mp4
-
+https://user-images.githubusercontent.com/60328300/130320925-9ace9aea-59e7-48a5-b410-ff21e826101b.mp4  
 
 
 ******
 
 ## <a id="whatsapp" >Whatsapp Class</a>
-### <a id="whatsapp-desc">1. Description</a>
+### <a id="whatsapp-desc">A. Description</a>
 
 
-### <a id="whatsapp-what">2. What Methods Do we have?</a>
+### <a id="whatsapp-what">B. What Methods Do we have?</a>
 - Whatsapp Class
     - [spam_bot](#spam)
         \
@@ -158,7 +157,7 @@ https://user-images.githubusercontent.com/60328300/130320925-9ace9aea-59e7-48a5-
     - [close_whatsapp](#closer)
 \
 &nbsp;
-### <a id="whatsapp-import">3. Importing and assigning Email class</a>
+### <a id="whatsapp-import">C. Importing and assigning Email class</a>
 - Importing the Whatsapp Class
     ```
     from automate import Whatsapp
@@ -177,7 +176,7 @@ https://user-images.githubusercontent.com/60328300/130320925-9ace9aea-59e7-48a5-
     var = Whatsapp(driver_address:"", usage_data_directory: "")
     ```
 
-### <a id="whatsapp-method">4. Methods</a>
+### <a id="whatsapp-method">D. Methods</a>
 - #### <a id="spam">spam_bot</a>
     - This method is used to send repeated texts (Spam) to the same person.
     - Messages can be sent to ***Multiple recipients*** also by the contact names in `name` list.  
@@ -199,7 +198,7 @@ https://user-images.githubusercontent.com/60328300/130320935-bdbbe52d-a247-4679-
 
 
 
-
+---
 - #### <a id="text">send_text</a>
     - This method is used to Automatically send messages to the recipient.  
     - ***Multiple messages*** can be sent by adding messages into the `msg` list.  
@@ -222,7 +221,7 @@ https://user-images.githubusercontent.com/60328300/130320945-40fbd00c-a3f7-48f3-
 
 
 
-
+---
 - #### <a id="image">send_image</a>  
     - This method is used to Automatically send image or video to the recipient. 
     - ***Multiple Images, Videos*** can be sent by adding the file address with extension in the `file_address` list. 
@@ -247,7 +246,7 @@ https://user-images.githubusercontent.com/60328300/130320952-2cf044a9-6f57-46f9-
 
 
 
-            
+---            
 - #### <a id="document">send_document</a>  
     - This method is used to Automatically send files as documents to the recipient.
     - ***Multiple Documents*** can also be sent to the recipient by adding the files address in `file_address` list.
@@ -298,7 +297,7 @@ https://user-images.githubusercontent.com/60328300/130320960-4f9ed498-6cb6-47ba-
 
 
 
-    
+---    
 - #### <a id="groupmaker">create_group </a>
     - This method is used to create a whatsapp group.
     - Using the contact names given in `group_list` and group name in `group_name` the whatsapp group is made. 
@@ -313,7 +312,9 @@ https://user-images.githubusercontent.com/60328300/130320960-4f9ed498-6cb6-47ba-
     *Code :*
     ```
     var.create_group(group_list: ["",""], group_name: "")
-    ```     
+    ``` 
+    
+---
 - #### <a id="closer">close_whatsapp</a>  
     - This method is used to close the running chrome driver.
 
