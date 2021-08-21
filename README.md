@@ -84,7 +84,7 @@ There's an additional functionality of Bolding the content in the body. This fea
 >**Note:**
 >- To input Multiple lines of string, use triple quotes.                                             
 >- It is advised to use organization-specific sender_email that (or) gmails that arent created on this device to avoid security issues with google verification.  
-      
+
 
 ### <a id="email-what">2. What Methods do we Offer?</a>
 - Email Class
@@ -130,6 +130,13 @@ There's an additional functionality of Bolding the content in the body. This fea
     ```
     var.send_mails(driver_path: "", emails: ["",""]) 
     ```  
+    *Demo :*  
+
+
+https://user-images.githubusercontent.com/60328300/130320925-9ace9aea-59e7-48a5-b410-ff21e826101b.mp4
+
+
+
 ******
 
 ## <a id="whatsapp" >Whatsapp Class</a>
@@ -185,6 +192,12 @@ There's an additional functionality of Bolding the content in the body. This fea
     ```
     var.spam_bot(name: ["",""], msg: "", count:)
     ```
+    *Demo :* 
+    
+
+https://user-images.githubusercontent.com/60328300/130320935-bdbbe52d-a247-4679-aee5-ad728449a22d.mp4
+
+
 
 
 - #### <a id="text">send_text</a>
@@ -201,6 +214,15 @@ There's an additional functionality of Bolding the content in the body. This fea
     ```
     var.send_text(name: ["",""], msg: "")
     ```
+    *Demo :* 
+
+
+
+https://user-images.githubusercontent.com/60328300/130320945-40fbd00c-a3f7-48f3-a65b-275f8c270b3d.mp4
+
+
+
+
 - #### <a id="image">send_image</a>  
     - This method is used to Automatically send image or video to the recipient. 
     - ***Multiple Images, Videos*** can be sent by adding the file address with extension in the `file_address` list. 
@@ -216,6 +238,14 @@ There's an additional functionality of Bolding the content in the body. This fea
     ```
     var.send_image(name: ["", ""], files_address: ["",""], select: bool = True)
     ```
+    *Demo :* 
+    
+
+
+https://user-images.githubusercontent.com/60328300/130320952-2cf044a9-6f57-46f9-abfc-c2aa754aa865.mp4
+
+
+
 
             
 - #### <a id="document">send_document</a>  
@@ -233,7 +263,16 @@ There's an additional functionality of Bolding the content in the body. This fea
     ```
     var.send_image(name: ["", ""], files_address: ["",""], select: bool = True)
     ```
+    *Demo :* 
 
+
+https://user-images.githubusercontent.com/60328300/130320955-6752b1fc-7cc7-4c30-856b-eea564a63cf3.mp4
+
+
+
+
+    
+    
 - #### <a id="audio">send_audio </a> 
     - This method converts the given message into a audio recording and will send to the recipient.
     - The audio file can be sent to multiple recipients by adding recipients into `name` list.  
@@ -250,7 +289,16 @@ There's an additional functionality of Bolding the content in the body. This fea
     ```
     var.send_audio(name: ["", ""], files_address: ["",""])
     ```     
-     
+    *Demo :*
+
+
+
+https://user-images.githubusercontent.com/60328300/130320960-4f9ed498-6cb6-47ba-8ed6-abe15481d020.mp4
+
+
+
+
+    
 - #### <a id="groupmaker">create_group </a>
     - This method is used to create a whatsapp group.
     - Using the contact names given in `group_list` and group name in `group_name` the whatsapp group is made. 
@@ -264,7 +312,7 @@ There's an additional functionality of Bolding the content in the body. This fea
 
     *Code :*
     ```
-    var.create_group(group_list: ["",""], group_name: "", text_dir: str = './group_names.txt')
+    var.create_group(group_list: ["",""], group_name: "")
     ```     
 - #### <a id="closer">close_whatsapp</a>  
     - This method is used to close the running chrome driver.
