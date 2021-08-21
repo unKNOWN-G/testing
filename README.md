@@ -312,8 +312,13 @@ https://user-images.githubusercontent.com/60328300/130320960-4f9ed498-6cb6-47ba-
     *Code :*
     ```
     var.create_group(group_list: ["",""], group_name: "")
-    ``` 
-    
+    ```  
+    *Demo :* 
+   
+
+https://user-images.githubusercontent.com/60328300/130328623-7141b762-641e-4cb7-986b-db40017aea78.mp4
+
+ 
 ---
 - #### <a id="closer">close_whatsapp</a>  
     - This method is used to close the running chrome driver.
