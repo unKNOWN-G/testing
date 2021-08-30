@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.5em;
+    text-align: center;
+      background-color: #A1EAFB;
+}
+h1{
+    margin: 0 auto;
+    font-size: 3em;
+    font-family: Sacramento;
+}
+h3{
+  text-align: center;
+}
+
+.home-page{
+    background-color: #A1EAFB;
+}
+
+.intro{
+    margin-top: 150px;
+}
+.bottom-cloud{
+    position: absolute;
+    top: 90px;
+    right: 450px;
+
+}
+.top-cloud{
+    position: absolute;
+    top: 300px;
+    left: 450px;
+}
+
+.education-heading{
+  background-color: #CDF3A2;
+  padding: 10px;
+  width: 15%;
+  margin: 100px auto 0 auto;
+}
+
+.education{
+  width: 60%;
+  margin: 0px auto;
+  background-color: #F0D9FF;
+  border-radius: 10%;
+  padding: 5%;
+  transition: 2%;
+}
+
+.pro{
+
+}
+.project-heading{
+  background-color: #CDF3A2;
+  padding: 10px;
+  width: 15%;
+  margin: 100px auto 0px auto;
+}
+.projects{
+  width: 60%;
+  margin: 0px auto;
+  text-align: left;
+  background-color: #F0D9FF;
+  border-radius: 10%;
+  padding: 5%;
+  transition: 2%;
+
+}
+.autosel{
+  margin-bottom: 100px
+}
+.autosel-img{
+  width: 25%;
+  float :left;
+  margin-right: 30px;
+}
+
+
+.image-suduko-solver{
+  margin-bottom: : 30px
+}
+.image-suduko-solver-img{
+  width: 25%;
+  float :right;
+  margin-left: 30px;
+}
+
+.intern-heading{
+  background-color: #CDF3A2;
+  padding: 10px;
+  width: 15%;
+  margin: 100px auto 0 auto;
+}
+
+.inter{
+  width: 60%;
+  margin: 0px auto 200px auto;
+  text-align: left;
+  background-color: #F0D9FF;
+  border-radius: 10%;
+  padding: 5%;
+  transition: 2%;
+}
+.cisco{
+  margin: 50px auto 100px auto;
+}
+
+.cisco-logo{
+  margin-top: 90px;
+  margin-right: 30px;
+  float: left;
+  width: 24%;
+}
+
+.origin{
+  margin: 100px auto 50px auto;
+}
+
+.origin-logo{
+  margin-left: 30px;
+      float: right;
+      width: 23%;
+      margin-top: 90px;
+}
+
+.coding-profiles{
+  width: 50%;
+  margin: 100px auto;
+  position: relative;
+}
+
+.gmail{
+  width: 25%;
+  position: absolute;
+  left: 0px;
+  padding: 20px;
+  border: black 10px solid;
+  border-radius: 100%;
+}
+.github{
+  width: 25%;
+  position: absolute;
+  right: 0px;
+  padding: 20px;
+  border: black 10px solid;
+  border-radius: 100%;
+}
+
+.contact-me{
+  background-color: #CDF3A2;
+  padding: 10px;
+  width: 15%;
+  margin: 5px auto 50px auto;
+}
+.contact{
+  background-color: #F0D9FF;
+}
+.space{
+  height: 250px;
+  width: 100%
+}
